@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 ipywidgets = ">=7.5.0"
 jupyter-bokeh = "*"
+jupyterlab = "~=3.2.0"
 jupyterlab-git = "*"
 jupyterlab-s3-browser = "*"
 
