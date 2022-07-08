@@ -1,10 +1,10 @@
-FROM quay.io/thoth-station/s2i-minimal-py38-notebook:latest
+FROM quay.io/thoth-station/s2i-minimal-f34-py39-notebook@sha256:8dd0326cdb8f89dedd1a858ed7469fce77a84a444c2656f134896ab204491216
 LABEL name="s2i-odh-nb-ex" \
       version="latest" \
       summary="Custom Jupyter Notebook Source-to-Image for Python 3.9 applications." \
       description="Notebook image based on Source-to-Image.These images can be used in OpenDatahub JupterHub." \
       io.k8s.description="Notebook image based on Source-to-Image.These images can be used in OpenDatahub JupterHub." \
-      io.k8s.display-name="Custom Notebook Python 3.8 S2I" \
+      io.k8s.display-name="Custom Notebook Python 3.9 S2I" \
       io.openshift.expose-services="8888:http" \
       io.openshift.tags="python,python38" \
       io.openshift.s2i.build.commit.ref="main" \
