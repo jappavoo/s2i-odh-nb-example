@@ -33,4 +33,6 @@ spec:
 
 ## Building the Notebook
 
+The repo has dockerfile create with help of s2i, for ease of users.
 [Dockerfile](./Dockerfile) is present on the root directory. Tools like `podman` or `docker` can be used for building.
+ex: `podman build -t s2i-odh-nb-ex .`
